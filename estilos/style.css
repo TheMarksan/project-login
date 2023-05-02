@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* var (--cor0) */
+
+:root {
+    --cor0: #000000;
+    --cor1: #002061;
+    --cor2: #004BE0;
+    --cor3: #457AE6;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
