@@ -5,19 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media_query.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-                Foto
+                foto
             </div>
-            <div id="formulário">
+            <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo novamento. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <p>Seja bem-vindo novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-
+                    <p class="data_login">
+                        <label for="iusu"><span id="user" class="material-symbols-outlined">person</span></label>
+                        <input type="text" name="usu" id="iusu" placeholder=" seu e-mail">
+                    </p>
+                    <p class="data_login">
+                        <label for="isen"><span id="key" class="material-symbols-outlined">vpn_key</span></label>
+                        <input type="password" name="sen" id="isen" placeholder=" sua senha">
+                    </p>
+                    <p id="submit">
+                        <input id="entrar" type="submit" value="Entrar">
+                        <input id="change" type="reset" value="Esqueci a senha">
+                    </p>
                 </form>
             </div>
         </section>
