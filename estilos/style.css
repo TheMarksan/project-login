@@ -96,7 +96,7 @@ p > span {
 }
 .data_login {
     margin-bottom: 8px;
-    width: 100%;
+    width: 99%;
     height: 40px;
     background-color: var(--cor1);
     border-radius: 8px;
@@ -113,7 +113,7 @@ p > span {
     border: none;
     font-size: 1em;
     margin-bottom: 5px;
-    width: 100%;
+    width: 99%;
     height: 40px;
     border-radius: 5px;
     color: white;
@@ -128,7 +128,7 @@ p > span {
 #change {
     display: block;
     text-align: center;
-    width: 100%;
+    width: 99%;
     height: 40px;
     border: 1px solid #80aaff;
     color: #002061;
